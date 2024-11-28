@@ -3,65 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Le Journal Français</title>
+  <title>Le Journal Populaire</title>
   <link rel="stylesheet" href="styles_fr.css">
 </head>
 <body>
   <div class="news-feed">
     <header class="masthead">
-      <h1>Le Journal Français</h1>
-      <p class="date">Jeudi, 28 Novembre 2024</p>
-      <button class="subscribe-button">S'abonner</button>
+      <div class="logo-container">
+        <h1>Le Journal Populaire</h1>
+      </div>
+      <p class="tagline">Les Nouvelles Qui Vous Parlent</p>
+      <nav>
+        <button class="subscribe-button">Abonnez-vous</button>
+        <button class="latest-button">Dernières Actus</button>
+      </nav>
     </header>
 
     <main>
       <section class="main-article">
-        <h2>David Hill accusé de fraude financière et de corruption en Chine</h2>
-        <p>
-          David Hill, fils du ministre des Finances de Chine, est accusé d'avoir utilisé son influence pour faciliter des 
-          transactions frauduleuses au sein de l’industrie financière chinoise.
+        <h2 class="highlight-title">David Hill accusé de fraude financière et de corruption en Chine</h2>
+        <p class="description">
+          David Hill, fils du ministre des Finances de Chine, est accusé d'avoir utilisé son influence pour faciliter 
+          des transactions frauduleuses au sein de l’industrie financière chinoise.
         </p>
-        <img src="hill-corruption.jpg" alt="David Hill Scandale" class="main-image">
+        <img src="hill-youth.jpg" alt="David Hill Scandale" class="main-image">
         <p>
-          Pékin, Chine – David Hill, connu comme le fils du ministre des Finances de Chine, fait face à des accusations graves de fraude et de corruption. 
-          Selon des sources proches de l'enquête, David Hill aurait utilisé ses relations familiales pour obtenir des informations confidentielles et favoriser 
-          certaines entreprises dans leurs transactions financières.
+          Pékin, Chine – David Hill, connu comme le fils du ministre des Finances de Chine, fait face à des accusations 
+          graves de fraude et de corruption. Selon des sources proches de l'enquête, il aurait utilisé ses relations 
+          familiales pour obtenir des informations confidentielles et favoriser certaines entreprises dans leurs transactions financières.
         </p>
-        <p>
-          L’affaire a suscité une onde de choc en Chine, où la transparence des opérations financières est sous le feu des critiques. Les autorités ont annoncé 
-          l’ouverture d’une enquête approfondie pour examiner l'étendue de ces irrégularités.
-        </p>
+        <p class="read-more"><a href="#">Lire l'article complet</a></p>
       </section>
 
       <section class="feed-articles">
-        <article>
-          <h3>Marchés financiers : Une reprise fragile</h3>
+        <article class="feed-card">
+          <h3 class="card-title">Marchés financiers : Une reprise fragile</h3>
           <p>
-            Les marchés asiatiques ont enregistré une légère hausse après une période de volatilité, bien que les analystes restent prudents face à la situation économique actuelle.
+            Les marchés asiatiques connaissent une légère hausse, mais les analystes restent prudents face aux défis économiques.
           </p>
-          <a href="#">Lire la suite</a>
+          <a href="#" class="card-link">Lire la suite</a>
         </article>
 
-        <article>
-          <h3>Sports : La Coupe de France bat son plein</h3>
+        <article class="feed-card">
+          <h3 class="card-title">Sports : La Coupe de France bat son plein</h3>
           <p>
-            Les quarts de finale de la Coupe de France débutent ce week-end avec des matchs très attendus opposant les meilleures équipes nationales.
+            Les quarts de finale de la Coupe de France débutent ce week-end avec des affiches palpitantes.
           </p>
-          <a href="#">Lire la suite</a>
+          <a href="#" class="card-link">Lire la suite</a>
         </article>
 
-        <article>
-          <h3>Société : Une initiative locale pour le climat</h3>
+        <article class="feed-card">
+          <h3 class="card-title">Société : Une initiative locale pour le climat</h3>
           <p>
-            À Lyon, un collectif citoyen a lancé un projet ambitieux visant à réduire les émissions de carbone de 50 % d'ici 2030.
+            À Lyon, un collectif citoyen vise à réduire les émissions de carbone de 50 % d'ici 2030. Une première en France !
           </p>
-          <a href="#">Lire la suite</a>
+          <a href="#" class="card-link">Lire la suite</a>
         </article>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2024 Le Journal Français. Tous droits réservés.</p>
+      <p>&copy; 2024 Le Journal Populaire. Propulsé par l'actualité. Tous droits réservés.</p>
     </footer>
   </div>
 </body>
