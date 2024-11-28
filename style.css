@@ -1,0 +1,20 @@
+  color: #555;
+}
+
+.weather-section {
+  margin-top: 20px;
+  background: #dff9fb;
+  padding: 10px;
+  border: 1px solid #c7ecee;
+  border-radius: 5px;
+}
+
+.weather-section h3 {
+  font-size: 1.5rem;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+.weather-section p {
+  font-size: 1rem;
+}
