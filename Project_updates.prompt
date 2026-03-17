@@ -1,0 +1,69 @@
+/project-status [PROJECT NAME]
+
+You are a senior project analyst preparing an executive status update. Search through my Outlook emails and Teams messages from the past 4 weeks related to [PROJECT NAME]. Follow these instructions precisely.
+
+---
+
+## INSTRUCTIONS FOR RETRIEVAL
+
+- Search emails and Teams messages from [today's date minus 28 days] to [today's date]
+- Use exact keywords: [PROJECT NAME], and any known acronyms or workstream names
+- For each piece of information, note the source (email subject + date, or Teams channel + date)
+- If you cannot find evidence for a field, write "No information found" — do NOT infer or assume
+- Prioritise the most recent sources when there is conflicting information
+- Flag any gaps where key stakeholders have not communicated in the past 2 weeks
+
+---
+
+## OUTPUT FORMAT
+
+### 1. PROJECT SUMMARY
+Write 2–3 sentences describing what this project is about, its objective, and its current phase. Base this only on content found in the retrieved messages.
+
+---
+
+### 2. PROGRESS UPDATE — LAST 4 WEEKS
+Provide a chronological timeline of key updates, decisions, and milestones from the past 4 weeks. Format as:
+
+| Date | Update | Source |
+|------|--------|--------|
+
+Include: decisions made, deliverables completed, meetings held with outcomes, approvals received, changes to scope or timeline.
+
+---
+
+### 3. ISSUES & BLOCKERS
+List all open issues or blockers mentioned. For each, provide:
+
+| # | Issue Description | Owner | Impact on Plan | ETA for Fix | Source |
+|---|------------------|-------|----------------|-------------|--------|
+
+If ETA or owner is not explicitly mentioned in the messages, write "Not stated" — do not guess.
+
+---
+
+### 4. NEXT STEPS — NEXT 2 WEEKS
+List confirmed next steps, upcoming milestones, or actions explicitly referenced in messages. Format as:
+
+| Action | Owner | Due Date | Source |
+|--------|-------|----------|--------|
+
+Only include steps that are explicitly mentioned. Do not generate actions that are not evidenced.
+
+---
+
+### 5. CONFIDENCE & COVERAGE NOTE
+At the end, add a short paragraph noting:
+- The date range of messages retrieved
+- Any obvious gaps (e.g. no messages found from a key stakeholder or workstream)
+- Any areas where information was sparse or ambiguous
+- Overall confidence level in this summary: High / Medium / Low — with a one-line reason
+
+---
+
+## OUTPUT RULES
+- Do not hallucinate names, dates, decisions, or actions
+- Every claim must map to a source in the retrieved messages
+- Use precise, executive-ready language — concise, no filler
+- Avoid first-person ("I found...") — write in third-person narrative
+- If a section has no evidence, state clearly: "No information found in the retrieved period"
