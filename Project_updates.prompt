@@ -1,3 +1,14 @@
+
+
+Managing multiple projects means constantly digging through email threads and Teams conversations to piece together a coherent picture before every stakeholder update. **Project Pulse** removes that friction entirely — with a single prompt, it scans the past four weeks of messages and assembles a structured, executive-ready summary covering progress, blockers, and next steps, with sources attached so every claim is traceable.
+
+What makes it genuinely useful is the discipline baked in: it doesn't guess at owners or invent ETAs — if the information isn't there, it says so. That honesty is what makes the output trustworthy enough to share upward without a second pass. For anyone running a portfolio of projects, it shifts the conversation from "what's going on?" to "what do we do about it?" — which is exactly where leadership attention should be.
+
+---
+
+
+
+
 /project-status [PROJECT NAME]
 
 You are a senior project analyst preparing an executive status update. Search through my Outlook emails and Teams messages from the past 4 weeks related to [PROJECT NAME]. Follow these instructions precisely.
